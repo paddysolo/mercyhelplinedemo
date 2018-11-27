@@ -1,0 +1,335 @@
+/* #tNav {
+  position: relative;
+  top: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+} */
+
+nav {
+    /* background-color: rgba(0, 0, 0, .5);
+     */
+    /* background-color: rgb(158, 109, 10); */
+    /* background-color: #FFB300;
+     */
+    background-color: #FFA000;
+    /* color: black !important; */
+    /* background  !important; */
+}
+
+.nav-wrapper ul li a {
+    /* color: black !important; */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-wrapper a.btn-large {
+    background-color: #FFB300;
+}
+
+#introsection {
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.hero {
+    padding-top: 100px;
+    padding-bottom: 250px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    color: #fff;
+    /* position: relative; */
+}
+
+.wrap {
+    position: relative;
+    margin-bottom: 280px;
+}
+
+#fund {
+    padding: 40px;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* posi */
+    /* margin-top: -200px; */
+    position: absolute;
+    bottom: -200px;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+#fund h2 {
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#fund i.fas,
+#fund i.far {
+    font-size: 90px;
+    margin-bottom: 0;
+    color: #FFA000;
+}
+
+#fund a {
+    color: #6A7066;
+}
+
+#fund a:hover {
+    transition: 1s;
+    color: #FFA000;
+}
+
+#recent {
+    padding-top: 50px;
+    background-color: #F2F2F2;
+    padding-bottom: 80px;
+}
+
+#recent h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFA000;
+}
+
+#recent p {
+    text-align: center;
+}
+
+#recent-card {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#recent-card .card {
+    box-shadow: none;
+}
+
+#recent-card .card .card-content {
+    /* border: 2px dotted grey; */
+}
+
+#recent-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFA000;
+}
+
+#recent-card p {
+    text-align: left;
+}
+
+#m-recent-card {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+}
+
+#m-recent-card .card {
+    box-shadow: none;
+}
+
+#m-recent-card img.circle {
+    width: 150px;
+    height: 150px;
+    /* position: absolute; */
+    /* margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 20%; */
+    margin-top: 30px;
+    /* left: 30%; */
+}
+
+#m-recent-card .founder {
+    text-align: center;
+    border: 3px grey dotted !important;
+}
+
+#m-recent-card .founder h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secText {
+    font-size: 12px;
+    color: grey;
+}
+
+.page-footer {
+    padding-top: 80px;
+    background-color: #252525;
+}
+
+.page-footer ul li a,
+.page-footer ul li {
+    color: grey;
+    margin-top: 5px;
+    /* text-decoration: underline; */
+}
+
+.page-footer a:hover {
+    transition: 2s;
+    color: #FFA000;
+}
+
+.footer,
+.footer-c {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer p {
+    color: grey;
+}
+
+.volunteer {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.volunteer .meet {
+    text-align: center;
+}
+
+.bg-volunteer {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.volunteer h6 {
+    font-weight: bold;
+    color: #FFA000;
+}
+
+.meet h5 {
+    color: #FFA000;
+}
+
+.fa-check-circle {
+    color: #FFA000;
+}
+
+.volunteer ul li {
+    margin-top: 5px;
+}
+
+.team .s6 {
+    /* margin-right: 0px; */
+    /* padding:  !important; */
+    /* border: 1px solid red; */
+}
+
+.team img {
+    /* border: 1px solid rebeccapurple; */
+    /* margin: 0px !important; */
+    /* margin-right: 0px !important; */
+}
+
+@media only screen and (max-width: 900px) {
+    /* body {
+        /* background-color: red !important; 
+    } */
+    .volunteer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer,
+    .footer-c {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #m-recent-card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #recent-card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+/* @media (min-width: 30em) and (max-width: 50em) { ... } */
+
+@media only screen and (max-width: 992px) {
+    .wrap {
+        position: relative;
+        margin-bottom: 280px;
+    }
+    #fund {
+        padding: 10px;
+        padding-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* posi */
+        /* margin-top: -200px; */
+        position: absolute;
+        bottom: -200px;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .brand-logo {
+        /* color: red !important; */
+    }
+    .sidenav {
+        background-color: rgba(0, 0, 0, .5) !important;
+        /* padding: 0px; */
+        margin-top: 55px;
+    }
+    ul.sidenav li a {
+        color: #fff !important;
+        padding: 0px;
+        /* border: 1px solid red; */
+        padding-top: 0px !important;
+        text-align: center;
+        /* padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important; */
+    }
+    .sidenav li {
+        /* margin-top: -10px !important;
+        padding: 0px !important; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        /* position: relative; */
+        position: relative;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    #fund {
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* posi */
+        margin-top: 0px;
+        position: relative;
+        bottom: 50px;
+        z-index: 0;
+        background-color: #fff;
+    }
+    div.hero {
+        padding: 5px;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    div.lcontainer {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
