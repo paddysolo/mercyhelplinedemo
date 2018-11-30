@@ -5,6 +5,11 @@
   padding-top: 5px;
 } */
 
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}
+
 nav {
     /* background-color: rgba(0, 0, 0, .5);
      */
@@ -16,18 +21,22 @@ nav {
     /* background  !important; */
 }
 
-.nav-wrapper ul li a {
+.nav-wrapper ul li a,
+ul.sidenav li a {
     /* color: black !important; */
-    font-weight: bold;
-    font-size: 12px;
+    /* font-weight: bold; */
+    /* font-size: 12px; */
+    /* font-family: 'Gravitas One', cursive; */
+    font-family: 'Nixie One', cursive;
 }
 
-.nav-wrapper a.btn-large {
+.nav-wrapper a.btn-large,
+ul.sidenav a.btn-large {
     background-color: #FFB300;
 }
 
 #introsection {
-    background-image: url('m11.jpg');
+    background-image: url('img/m11.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -76,11 +85,13 @@ div.hero {
     color: #FFA000;
 }
 
-#fund a {
+#fund a,
+#recent-card .card-content a:hover {
     color: #6A7066;
 }
 
-#fund a:hover {
+#fund a:hover,
+#recent-card .card-content a {
     transition: 1s;
     color: #FFA000;
 }
@@ -185,6 +196,11 @@ div.hero {
     margin-right: 100px;
 }
 
+.footer-c p {
+    text-align: center !important;
+    font-size: 14px;
+}
+
 .footer p {
     color: grey;
 }
@@ -245,6 +261,8 @@ div.hero {
     .footer-c {
         margin-left: 10px;
         margin-right: 10px;
+        /* text-align: center; */
+        /* display: inline !important; */
     }
     #m-recent-card {
         margin-left: 20px;
@@ -298,6 +316,17 @@ div.hero {
         /* margin-top: -10px !important;
         padding: 0px !important; */
     }
+    .hero h1 {
+        font-family: 'Gravitas One', cursive;
+        font-size: 30px;
+        letter-spacing: ;
+    }
+    .hero p {
+        /* font-family: 'Elsie', cursive;
+         */
+        font-family: 'Life Savers', cursive;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -327,9 +356,40 @@ div.hero {
     }
 }
 
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Limelight', cursive;
+    /* font-family: 'Londrina Solid', cursive; */
+    /* letter-spacing: 3px; */
+}
+
+#recent h4,
+h6 {
+    font-family: 'Nixie One', cursive;
+}
+
+ul.recent-campaign li {
+    /* list-style-type: circle !important; */
+    list-style: circle !important;
+    /* color: red; */
+}
+
 @media only screen and (min-width: 993px) {
     div.lcontainer {
         padding-left: 100px !important;
         padding-right: 100px !important;
+    }
+    .hero h1 {
+        font-family: 'Gravitas One', cursive;
+        font-size: ;
+        letter-spacing: ;
+    }
+    .hero p {
+        /* font-family: 'Elsie', cursive;
+         */
+        font-family: 'Life Savers', cursive;
+        font-size: 24px;
     }
 }
