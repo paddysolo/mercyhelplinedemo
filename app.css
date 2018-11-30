@@ -274,6 +274,11 @@ div.hero {
     }
 }
 
+img.logo {
+    width: 120px;
+    height: 100px;
+}
+
 
 /* @media (min-width: 30em) and (max-width: 50em) { ... } */
 
